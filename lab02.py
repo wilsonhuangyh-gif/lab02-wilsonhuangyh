@@ -25,11 +25,11 @@ def admission_price(age):
     # TODO (Part 2): return the ticket price (a number) for someone of this age
     if age < 5:
         price = 0
-    if age >= 5 and age <= 12:
+    elif age >= 5 and age <= 12:
         price = 8.00
-    if age >= 13 and age <=64:
+    elif age >= 13 and age <=64:
         price = 15.00
-    if age >= 65:
+    elif age >= 65:
         price = 10.00
     return price
     pass
